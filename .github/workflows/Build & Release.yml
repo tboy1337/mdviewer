@@ -26,7 +26,7 @@ jobs:
           pip install pyinstaller
       - name: Build executable
         run: |
-          pyinstaller --onefile dispatch/main.py
+          pyinstaller --onefile main.py
       - name: Rename executable
         run: |
           Rename-Item -Path dist/main.exe -NewName MDViewer-v1.0.${{ github.run_number }}-windows.exe
