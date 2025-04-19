@@ -30,7 +30,7 @@ A cross-platform Markdown viewer application built with Python.
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/MDViewer.git
+   git clone https://github.com/tboy1337/MDViewer.git
    cd MDViewer
    ```
 
